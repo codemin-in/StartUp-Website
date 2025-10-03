@@ -24,7 +24,7 @@ const Footer = ({ scrollToSection }) => {
     <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
-          
+
           <div>
             <div className="flex items-center mb-4">
               <Code className="w-8 h-8 text-blue-600 mr-2" />
@@ -35,14 +35,43 @@ const Footer = ({ scrollToSection }) => {
               We bring your ideas to life with technology and expertise.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
-              <Twitter className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
-              <Instagram className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
-              <Linkedin className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
+              <a
+                href="https://www.facebook.com/profile.php?id=61581782364099"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
+              </a>
+              <a
+                href="https://x.com/codemin_in"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter/X"
+              >
+                <Twitter className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
+              </a>
+              <a
+                href="https://www.instagram.com/codemin.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/codemin-in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors duration-200" />
+              </a>
             </div>
+
           </div>
 
-         
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -62,7 +91,7 @@ const Footer = ({ scrollToSection }) => {
             </ul>
           </div>
 
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
@@ -74,22 +103,22 @@ const Footer = ({ scrollToSection }) => {
             </ul>
           </div>
 
-        
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-blue-600 mr-3" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 88705 68810</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-blue-600 mr-3" />
-                <span className="text-gray-400">info@codemin-it.com</span>
+                <span className="text-gray-400">codemin.in@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-blue-600 mr-3" />
                 <span className="text-gray-400">
-                  123 Tech Avenue, Innovation City, TX 54321
+                   Solai Alagupuram 3rd Street, Madurai-625011, Tamil Nadu ,India
                 </span>
               </div>
             </div>
